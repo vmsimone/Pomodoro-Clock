@@ -1,0 +1,77 @@
+body {
+  background: #00aabb;
+}
+
+.bg {
+  background: #002255;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.interface {
+  position: absolute;
+  width: 30%;
+  left: 40%;
+  height: 80%;
+  top: 10%;
+}
+
+.clock {
+  position: absolute;
+  border-bottom: 4px solid rgba(100, 100, 100, 0.5);
+  border-right: 4px solid rgba(100, 100, 100, 0.5);
+  border-radius: 100%;
+  background-color: white;
+  background-color: rgba(200, 200, 200, 0.5);
+  height: 2.1em;
+  width: 3em;
+  left: 0.7em;
+  top: 2em;
+  padding-top: .9em;
+  text-align: center;
+  font-size: 64px;
+  cursor: pointer;
+}
+
+#brk-clock {
+  position: absolute;
+  font-size: 32px;
+  top: 4em;
+  left: 2em;
+}
+
+.subt {
+  top: 3em;
+  left: 1em;
+  height: 1.5em;
+  width: 1.5em;
+  padding-top: 0;
+  font-size: 32px;
+}
+
+.add {
+  top: 3em;
+  left: 6.3em;
+  height: 1.4em;
+  width: 1.5em;
+  padding-top: .1em;
+  font-size: 32px;
+}
+
+.set {
+  top: 0.4em;
+  height: 1.2em;
+  width: 4em;
+  padding-top: 0;
+  padding: 10px;
+  font-size: 48px;
+}
+
+.pushed {
+  border: none;
+  border-top: 4px solid rgba(100, 100, 100, 0.5);
+  border-left: 4px solid rgba(100, 100, 100, 0.5);
+}
